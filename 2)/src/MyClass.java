@@ -28,4 +28,13 @@ public class MyClass<T> {
     public T getObj3() {
         return obj3;
     }
+
+    @Override
+    public String toString() {
+        return "MyClass{" +
+                "obj1=" + obj1 +
+                ", obj2=" + obj2 +
+                ", obj3=" + obj3 +
+                '}';
+    }
 }
