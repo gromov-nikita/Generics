@@ -1,9 +1,9 @@
 package coffeeHouse.decorators;
 import coffeeHouse.Order;
 public abstract class Decorator implements Order {
-    private Order order;
-    private String label;
-    private double price;
+    protected Order order;
+    protected String label;
+    protected double price;
     public Decorator(String label, double price, Order order) {
         this.order = order;
         this.label = label;

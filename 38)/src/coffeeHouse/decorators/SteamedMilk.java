@@ -3,15 +3,15 @@ package coffeeHouse.decorators;
 import coffeeHouse.Order;
 
 public class SteamedMilk extends Decorator {
-    public SteamedMilk(String label, double price, Order order) {
-        super(label,price,order);
+    public SteamedMilk(Order order) {
+        super("Steamed milk", 15,order);
     }
     @Override
     public double getPrice() {
-        return getPrice() + getOrder().getPrice();
+        return getOrder().getPrice() + price;
     }
     @Override
     public String getLabel() {
-        return getOrder().getLabel() + "SteamedMilk";
+        return getOrder().getLabel() + " Steamed milk";
     }
 }
