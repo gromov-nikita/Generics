@@ -13,7 +13,5 @@ public class FixedSizeStack<T> {
     public void push(T item) { storage.add(item); }
     //@SuppressWarnings("unchecked")
     public T pop() { return storage.remove(storage.size()-1); }
-    // я немного не понял какая ошибка должна быть.
-    // У меня даже warning нету
 }
 
