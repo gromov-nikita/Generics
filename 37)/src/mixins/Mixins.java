@@ -9,5 +9,7 @@ public class Mixins {
                 mixin1.getStamp() + " " + mixin1.getSerialNumber());
         System.out.println(mixin2.get() + " " +
                 mixin2.getStamp() + " " + mixin2.getSerialNumber());
+        mixin1.setColor("Blue");
+        System.out.println(mixin1.getColor());
     }
 }
