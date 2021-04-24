@@ -1,10 +1,10 @@
 public class SixTuple<T1,T2,T3,T4,T5,T6> {
-    public final T1 obj1;
-    public final T2 obj2;
-    public final T3 obj3;
-    public final T4 obj4;
-    public final T5 obj5;
-    public final T6 obj6;
+    public T1 obj1;
+    public T2 obj2;
+    public T3 obj3;
+    public T4 obj4;
+    public T5 obj5;
+    public T6 obj6;
     public SixTuple(T1 obj1, T2 obj2, T3 obj3, T4 obj4, T5 obj5, T6 obj6) {
         this.obj1 = obj1;
         this.obj2 = obj2;
